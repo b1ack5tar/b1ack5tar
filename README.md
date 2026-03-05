@@ -41,6 +41,6 @@
   <!-- Bottom subtle label -->
   <text x="90" y="210" font-family="monospace" font-size="13"
         fill="#4fc3f7" opacity="0.5" letter-spacing="2">
-    HARDWARE SECURITY · BUPT
+    CYBERSPACE SECURITY · BUPT
   </text>
 </svg>
