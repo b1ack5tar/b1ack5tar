@@ -1,0 +1,46 @@
+<svg width="900" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="300" fill="url(#bg)"/>
+
+  <!-- Subtle grid lines -->
+  <g opacity="0.04" stroke="white" stroke-width="1">
+    <line x1="0" y1="60" x2="900" y2="60"/>
+    <line x1="0" y1="120" x2="900" y2="120"/>
+    <line x1="0" y1="180" x2="900" y2="180"/>
+    <line x1="0" y1="240" x2="900" y2="240"/>
+    <line x1="150" y1="0" x2="150" y2="300"/>
+    <line x1="300" y1="0" x2="300" y2="300"/>
+    <line x1="450" y1="0" x2="450" y2="300"/>
+    <line x1="600" y1="0" x2="600" y2="300"/>
+    <line x1="750" y1="0" x2="750" y2="300"/>
+  </g>
+
+  <!-- Accent line left -->
+  <rect x="60" y="100" width="2" height="100" fill="#4fc3f7" opacity="0.8" filter="url(#glow)"/>
+
+  <!-- Main quote -->
+  <text x="90" y="158" font-family="'Noto Serif SC', 'Source Han Serif', serif"
+        font-size="36" fill="white" opacity="0.95" letter-spacing="4">
+    这世上充满了等待被解决的迷人问题
+  </text>
+
+  <!-- Bottom subtle label -->
+  <text x="90" y="210" font-family="monospace" font-size="13"
+        fill="#4fc3f7" opacity="0.5" letter-spacing="2">
+    CYBERSPACE SECURITY · BUPT
+  </text>
+</svg>
