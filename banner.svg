@@ -34,9 +34,7 @@
 
   <!-- Main quote -->
   <text x="90" y="158" font-family="'Noto Serif SC', 'Source Han Serif', serif"
-        font-size="36" fill="white" opacity="0.95" letter-spacing="4">
+        font-size="38" fill="white" opacity="0.95" letter-spacing="4">
     这世上充满了等待被解决的迷人问题
   </text>
-
-  <!-- Bottom subtle label -->
 </svg>
