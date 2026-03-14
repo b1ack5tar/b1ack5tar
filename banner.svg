@@ -1,4 +1,4 @@
-<svg width="900" height="200" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="180" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#0a0a0a"/>
@@ -14,27 +14,27 @@
   </defs>
 
   <!-- Background -->
-  <rect width="900" height="200" fill="url(#bg)"/>
+  <rect width="900" height="180" fill="url(#bg)"/>
 
   <!-- Subtle grid lines -->
   <g opacity="0.04" stroke="white" stroke-width="1">
-    <line x1="0" y1="50" x2="900" y2="50"/>
-    <line x1="0" y1="100" x2="900" y2="100"/>
-    <line x1="0" y1="150" x2="900" y2="150"/>
-    <line x1="150" y1="0" x2="150" y2="200"/>
-    <line x1="300" y1="0" x2="300" y2="200"/>
-    <line x1="450" y1="0" x2="450" y2="200"/>
-    <line x1="600" y1="0" x2="600" y2="200"/>
-    <line x1="750" y1="0" x2="750" y2="200"/>
+    <line x1="0" y1="45" x2="900" y2="45"/>
+    <line x1="0" y1="90" x2="900" y2="90"/>
+    <line x1="0" y1="135" x2="900" y2="135"/>
+    <line x1="150" y1="0" x2="150" y2="180"/>
+    <line x1="300" y1="0" x2="300" y2="180"/>
+    <line x1="450" y1="0" x2="450" y2="180"/>
+    <line x1="600" y1="0" x2="600" y2="180"/>
+    <line x1="750" y1="0" x2="750" y2="180"/>
   </g>
 
   <!-- Accent line left -->
-  <rect x="60" y="65" width="2" height="70" fill="#4fc3f7" opacity="0.8" filter="url(#glow)"/>
+  <rect x="60" y="60" width="2" height="60" fill="#4fc3f7" opacity="0.8" filter="url(#glow)"/>
 
   <!-- Main quote -->
-  <text x="90" y="110"
+  <text x="90" y="100"
         font-family="'Noto Serif SC', 'Source Han Serif', serif"
-        font-size="36"
+        font-size="34"
         fill="white"
         opacity="0.95"
         letter-spacing="4">
